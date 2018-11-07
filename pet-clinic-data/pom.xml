@@ -46,10 +46,12 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <executions>
                     <execution>
-                        <goal>package</goal>
-                        <configutration>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                        <configuration>
                             <skip>true</skip>
-                        </configutration>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
