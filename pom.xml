@@ -12,7 +12,9 @@
         <module>pet-clinic-web</module>
     </modules>
 
-    <name>Pet Clinic</name>
+    <packaging>pom</packaging>
+
+    <name>pet-clinic</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
